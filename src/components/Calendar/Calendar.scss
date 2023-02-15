@@ -1,0 +1,12 @@
+.Calendar {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    .arrow {
+      width: unset;
+      height: 22px;
+      fill: white;
+    }
+  }
+}
