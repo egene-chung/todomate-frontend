@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 import './Calendar.scss';
 import { format, addMonths, subMonths, startOfMonth, endOfMonth, startOfWeek, endOfWeek } from 'date-fns';
+import axios from 'axios';
 import { ReactComponent as LeftIcon } from '../icons/chevron-left.svg';
 import { ReactComponent as RightIcon } from '../icons/chevron-right.svg';
-import axios from 'axios';
 
 function RenderHeader({ currentMonth, prevMonth, nextMonth }) {
   axios.get('/api/hello').then((res) => console.log(res));
