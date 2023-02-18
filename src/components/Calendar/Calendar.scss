@@ -1,12 +1,24 @@
 .Calendar {
+  width: 40%;
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+  .flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .header {
     display: flex;
     justify-content: space-between;
-    width: 40%;
     .arrow {
       width: unset;
       height: 22px;
       fill: white;
     }
+  }
+  .week {
+    width: 100%;
   }
 }
